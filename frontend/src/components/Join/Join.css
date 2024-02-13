@@ -21,40 +21,41 @@
 }
 
 .navbar{
-    height: 10%;
-    background-color: aqua;
+    height: 6%;
+    background-color: #dbe9ff;
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid black;
 }
 .left-div{
-    background-color: brown;
     display: flex;
-    padding: 10px;
+    padding: 2px;
     gap:1rem;
 }
 .right-div{
-    padding: 10px;
-    background-color: greenyellow;
+    padding: 2px;
     display: flex;
     gap:1rem;
 }
 img{
+    padding: 6px;
     height: 80%;
 }
 .icons{
     background-color: blueviolet;
+    color:#dbe9ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:2rem;
-    width: 2rem;
+    height:1rem;
+    width: 1rem;
     border-radius: 50%;
     border: 3px solid black;
-    padding: 3px;
+    padding: 6px;
 }
 
 .chat-box{
-   height: 10%;
-   background-color: aquamarine;
+   height: 12%;
+   background-color: #dbe9ff;
+   border-top: 3px solid black;
 }

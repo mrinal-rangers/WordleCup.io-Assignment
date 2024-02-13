@@ -3,6 +3,58 @@
     padding-top: 5px;
     justify-content: space-between;
 }
+
+
+#join-btn{
+    background-color: #2663ea;
+    color: white;
+    width: 40%;
+    height: 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    position: absolute;
+    transform: translateX(50%);
+}
+
+#name-div{
+    position: absolute;
+    width: 40%;
+    transform: translateX(60%);
+    display: flex;
+    flex-direction: column;
+}
+
+#name-input{
+    width: 60%;
+    height: 2rem;
+    border-radius: 6px;
+    border: 2px solid #2663ea;
+    padding-left: 10px;
+}
+#name-input:hover {
+    background-color: white; /* Change background color on hover */
+}
+#name-btn{
+    background-color: #2663ea;
+    border: 2px solid #2663ea;
+    color: white;
+    width: 20%;
+    height: 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.avatar-container{
+ display: flex;
+ padding-left: 2rem ;
+ padding-bottom: 2rem ;
+ gap: 2rem ;
+}
+
+.avatar-container img{
+    height:7vh;
+    
+}
+
 .input-field{
     width:80%
 }
@@ -20,8 +72,9 @@ button{
 }
 
 .fill-name{
+    background-color:red;
     display:flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-evenly;
 }
 

@@ -1,0 +1,41 @@
+.outer{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+.input-field{
+    width:80%
+}
+button{
+    width: auto;
+    border: none;
+    background-color: transparent;
+    margin: 15px;
+}
+
+.plus{
+    margin: 15px;
+    margin-right:5px;
+    
+}
+
+.fill-name{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.fill-name input{
+    width: 20vw;
+    height: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.fill-name button{
+    width: 5vw;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
